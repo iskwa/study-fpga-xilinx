@@ -1,0 +1,25 @@
+NET "CLK"   LOC = "B8";
+
+NET "CLK" TNM_NET = "CLK";
+TIMESPEC TS_CLK = PERIOD "CLK" 50000 kHz;
+
+# 7segment display
+NET "nSEG<0>" LOC = "L18";
+NET "nSEG<1>" LOC = "F18";
+NET "nSEG<2>" LOC = "D17";
+NET "nSEG<3>" LOC = "D16";
+NET "nSEG<4>" LOC = "G14";
+NET "nSEG<5>" LOC = "J17";
+NET "nSEG<6>" LOC = "H14";
+NET "nSEG<7>" LOC = "C17";
+
+NET "nAN<0>" LOC = "F17";
+NET "nAN<1>" LOC = "H17";
+NET "nAN<2>" LOC = "C18";
+NET "nAN<3>" LOC = "F15";
+
+# Switches
+NET "RST" LOC = "R17";
+
+# LED
+NET "LD0" LOC = "J14";
